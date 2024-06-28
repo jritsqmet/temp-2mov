@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Estilos para el índice */
+#indice {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    width: 150px;
+}
+
+#indice ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#indice li {
+    margin-bottom: 5px;
+}
+
+#indice a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+}
+
+#indice a:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    margin-left: 180px; /* Ajustar según el ancho del índice */
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
